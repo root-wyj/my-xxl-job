@@ -1,0 +1,4 @@
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:20093/xxl-job-admin

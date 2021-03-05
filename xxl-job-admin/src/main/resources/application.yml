@@ -1,0 +1,53 @@
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 0
+    static-path-pattern: /static/**
+  freemarker:
+    charset: UTF-8
+    request-context-attribute: request
+    settings:
+      number_format: 0.##########
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+  resources:
+    static-locations: classpath:/static/
+  mail:
+    from: ''
+    host: smtp.qq.com
+    password: ''
+    port: 25
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
+            required: true
+    username: ''
+
+xxl:
+  job:
+    accessToken: ''
+    i18n: zh_CN
+    logretentiondays: 30
+    triggerpool:
+      fast:
+        max: 200
+      slow:
+        max: 100
+server:
+  servlet:
+    context-path: /xxl-job-admin
+mybatis:
+  mapper-locations: classpath:/mybatis-mapper/*Mapper.xml
+
+management:
+  health:
+    mail:
+      enabled: false
+  server:
+    servlet:
+      context-path: /actuator

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://xxxxx?characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=Asia%2FShanghai&allowMultiQueries=true
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: xxx
+    password: xxx
+    hikari:
+      connection-init-sql: set names utf8mb4
+      idleTimeout: 1000
+      max-lifetime: 1000

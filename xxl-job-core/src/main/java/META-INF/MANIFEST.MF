@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Class-Path: swagger-models-1.5.21.jar failureaccess-1.0.1.jar jboss-webs
+ ocket-api_1.1_spec-1.1.3.Final.jar jackson-annotations-2.11.0.jar sprin
+ g-boot-starter-tomcat-2.3.0.RELEASE.jar slf4j-api-1.7.30.jar javax.json
+ -1.0.4.jar spring-boot-starter-json-2.3.0.RELEASE.jar HikariCP-3.3.1.ja
+ r spring-boot-starter-jdbc-2.3.0.RELEASE.jar groovy-2.4.5-indy.jar core
+ -3.1.0.jar spring-boot-starter-mail-2.3.0.RELEASE.jar jackson-databind-
+ 2.11.0.jar logback-core-1.1.1.jar nutz-1.r.62.jar fastjson-1.2.57.jar c
+ ommons-pool2-2.4.3.jar commons-lang-2.6.jar sharding-jdbc-core-3.1.0.ja
+ r HdrHistogram-2.1.12.jar jackson-module-parameter-names-2.11.0.jar spr
+ ing-boot-starter-web-2.3.0.RELEASE.jar spring-expression-5.2.6.RELEASE.
+ jar spring-jcl-5.2.6.RELEASE.jar netty-3.2.5.Final.jar jackson-annotati
+ ons-2.9.5.jar spring-boot-starter-actuator-2.3.0.RELEASE.jar snakeyaml-
+ 1.16.jar zookeeper-3.5.4-beta.jar undertow-servlet-2.0.19.Final.jar ani
+ mal-sniffer-annotations-1.17.jar undertow-websockets-jsr-2.0.19.Final.j
+ ar joda-time-2.9.1.jar mysql-connector-java-5.1.47.jar metrics-healthch
+ ecks-4.0.5.jar validation-api-1.1.0.Final.jar metrics-core-4.0.5.jar sl
+ f4j-api-1.7.25.jar metrics-jvm-4.0.5.jar logback-core-1.1.11.jar seata-
+ common-0.5.1.jar jakarta.el-3.0.3.jar jedis-2.10.1.jar jackson-dataform
+ at-yaml-2.9.5.jar config-1.2.1.jar icu4j-58.2.jar swagger-annotations-1
+ .5.21.jar cron4j-2.2.5.jar jakarta.annotation-api-1.3.5.jar sharding-co
+ re-3.1.0.jar netty-all-4.1.49.Final.jar jcl-over-slf4j-1.7.25.jar sprin
+ g-boot-starter-freemarker-2.3.0.RELEASE.jar spring-core-5.2.6.RELEASE.j
+ ar mybatis-spring-boot-autoconfigure-2.1.2.jar log4j-to-slf4j-2.13.2.ja
+ r spring-boot-starter-logging-2.3.0.RELEASE.jar HikariCP-3.4.5.jar xnio
+ -nio-3.3.8.Final.jar swagger-core-1.5.21.jar spring-tx-5.2.6.RELEASE.ja
+ r xnio-api-3.3.8.Final.jar tomcat-embed-core-9.0.35.jar log4j-api-2.13.
+ 2.jar javax.servlet-api-4.0.1.jar mybatis-spring-boot-starter-2.1.2.jar
+  spring-jdbc-5.2.6.RELEASE.jar micrometer-core-1.5.1.jar spring-boot-ac
+ tuator-2.3.0.RELEASE.jar jboss-logging-3.3.2.Final.jar j2objc-annotatio
+ ns-1.1.jar jcl-over-slf4j-1.7.7.jar tomcat-embed-websocket-9.0.35.jar m
+ ybatis-3.5.4.jar jfinal-undertow-1.6.jar spring-webmvc-5.2.6.RELEASE.ja
+ r sharding-transaction-core-3.1.0.jar slf4j-log4j12-1.7.30.jar listenab
+ lefuture-9999.0-empty-to-avoid-conflict-with-guava.jar commons-io-2.6.j
+ ar jfinal-3.8.jar spring-boot-autoconfigure-2.3.0.RELEASE.jar logback-e
+ xt-spring-0.1.4.jar dubbo-2.6.6.jar profiler-1.0.2.jar mysql-connector-
+ java-8.0.20.jar cglib-nodep-3.2.5.jar jjwt-0.9.1.jar ST4-4.0.8.jar spri
+ ng-boot-2.3.0.RELEASE.jar undertow-core-2.0.19.Final.jar logback-classi
+ c-1.1.11.jar curator-client-4.1.0.jar seata-config-core-0.5.1.jar fst-2
+ .57.jar antlr4-4.7.1.jar antlr-runtime-3.5.2.jar checker-qual-2.5.2.jar
+  jfinal-weixin-2.3.jar audience-annotations-0.5.0.jar snakeyaml-1.26.ja
+ r commons-lang3-3.8.1.jar error_prone_annotations-2.2.0.jar netty-all-4
+ .1.50.Final.jar antlr4-runtime-4.7.1.jar cos-2017.5.jar jsr305-3.0.2.ja
+ r javassist-3.21.0-GA.jar jboot-2.0.9.jar groovy-3.0.3.jar spring-boot-
+ actuator-autoconfigure-2.3.0.RELEASE.jar jackson-core-2.11.0.jar mybati
+ s-spring-2.0.4.jar cglib-nodep-3.1.jar metrics-servlets-4.0.5.jar org.a
+ bego.treelayout.core-1.0.3.jar spring-context-support-5.2.6.RELEASE.jar
+  jfinal-2.2.jar spring-beans-5.2.6.RELEASE.jar curator-framework-4.1.0.
+ jar jsoup-1.11.3.jar spring-web-5.2.6.RELEASE.jar gson-2.8.6.jar spring
+ -context-5.2.6.RELEASE.jar objenesis-2.5.1.jar LatencyUtils-2.0.3.jar g
+ roovy-2.5.11.jar jackson-core-2.8.8.jar logback-classic-1.2.3.jar ehcac
+ he-2.10.6.jar freemarker-2.3.30.jar netty-3.10.6.Final.jar jul-to-slf4j
+ -1.7.30.jar jackson-datatype-jsr310-2.11.0.jar log4j-1.2.17.jar logback
+ -classic-1.1.1.jar jackson-datatype-jdk8-2.11.0.jar logback-core-1.2.3.
+ jar commons-cli-1.2.jar spring-aop-5.2.6.RELEASE.jar metrics-json-4.0.5
+ .jar jakarta.activation-1.2.2.jar spring-boot-starter-2.3.0.RELEASE.jar
+  jakarta.mail-1.6.5.jar jackson-databind-2.9.5.jar guava-27.1-jre.jar
+

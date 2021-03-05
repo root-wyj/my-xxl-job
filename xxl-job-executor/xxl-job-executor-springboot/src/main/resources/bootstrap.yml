@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: xxl-job-executor
+
+---
+spring:
+  profiles: dev
+nacos:
+  config:
+    # 配置文件类型
+    type: yaml
+    bootstrap:
+      enable: true
+    remote-first: true
+    username: ${NACOS_USER:nacos}
+    password: ${NACOS_PASSWORD:nacos}
+    # 分组id
+    group: DEFAULT_GROUP
+    # 配置修改后自动刷新
+    auto-refresh: true
+    # 最大重试次数
+    max-retry: 10
+    # 重试时间
+    config-retry-time: 2333
+    # 配置监听长轮询超时时间
+    config-long-poll-timeout: 46000
+    # 开启注册监听器预加载配置服务（除非特殊业务需求，否则不推荐打开该参数）
+    enable-remote-sync-config: true
+    server-addr: xxx
+    namespace: xxx
+    data-id: xxx-executor.yaml
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.29.4.201:1200/eureka/
+    register-with-eureka: false
+
